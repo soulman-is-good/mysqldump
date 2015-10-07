@@ -1,0 +1,27 @@
+{
+  "name": "mysqldump",
+  "version": "1.0.0",
+  "description": "Implementation of unix utility mysqldump",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mysqldump",
+    "mysql",
+    "dump",
+    "stream",
+    "streams"
+  ],
+  "engine": "node >= 0.10.0",
+  "author": "Maxim Savin <i@soulman.kz>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soulman-is-good/mysqldump.git"
+  },
+  "bugs": {
+    "url": "https://github.com/soulman-is-good/mysqldump/issues"
+  },
+  "homepage": "https://github.com/soulman-is-good/mysqldump#readme"
+}
