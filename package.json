@@ -1,5 +1,5 @@
 {
-  "name": "mysqldump",
+  "name": "mysqldump-stream",
   "version": "1.0.1",
   "description": "Implementation of unix utility mysqldump",
   "main": "index.js",
