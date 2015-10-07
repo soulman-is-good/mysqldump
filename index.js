@@ -62,9 +62,11 @@ function Mysqldump(database, options) {
       }
     });
     this.mysqldump.on('close', function() {
-      self.dump_buf = null;
-      self.mysqldump = null;
-      self.push(null);
+      self.stdout.on('end', function(){
+        self.dump_buf = null;
+        self.mysqldump = null;
+        self.push(null);
+      });
     });
     return self;
   };

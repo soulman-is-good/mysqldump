@@ -7,14 +7,14 @@ Install
 ---------
 
 ```sh
-npm install mysqldump
+npm install mysqldump-stream
 ```
 
 Usage
 -------
 
 ```javascript
-var Mysqldump = require('mysqldump');
+var Mysqldump = require('mysqldump-stream');
 var mysqldump = new Mysqldump('mydatabase', {
   gzip: true, //default: false
   host: 'localhost', //default
